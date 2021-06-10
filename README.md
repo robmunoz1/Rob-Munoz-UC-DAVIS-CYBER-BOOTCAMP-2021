@@ -41,7 +41,7 @@ The configuration details of each machine may be found below.
 | Web-1    | Webserver| 10.0.0.4   | Linux            |
 | Web-2    | Webserver| 10.0.0.5   | Linux            |
 | Web-3    | Webserver| 10.0.0.6   | Linux            |
-| ELK Server Elkserver| 10.2.0.4   | Linux            |
+| ELK Server| Elkserver|10.2.0.4   | Linux            |
 
 ### Access Policies
 
@@ -59,7 +59,7 @@ A summary of the access policies in place can be found in the table below.
 | Web-1    |        No           | 10.0.0.7             |
 | Web-2    |        NO           | 10.0.0.7             |
 | Web-3    |        No           | 10.0.0.7             |
-| Elk Server        No           | 10.0.0.7             |
+| Elk Server|        No           | 10.0.0.7             |
 
 ### Elk Configuration
 
