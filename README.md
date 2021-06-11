@@ -4,7 +4,7 @@ Class Project 1
 
 The files in this repository were used to configure the network depicted below.
 
-/Diagrams/_Rob Munoz_ Cloud Secuirty.png
+Diagrams/_Rob Munoz_ Cloud Secuirty.png
 
 The associated files in have been tested during the UC Davis Bootcamp lectures to generate a live ELK deployement in an Azure Environment.  THey can be used to create the entire deployment pictured above, or individually, select portions can be installed, such as filebeat.
 
