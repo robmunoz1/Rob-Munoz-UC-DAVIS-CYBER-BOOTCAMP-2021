@@ -108,6 +108,6 @@ Add a group called [elk] and specify the IP address of the VM you just created i
 - Run the playbook, and navigate to HTTP://<ELKServer_Public_IP>:5601 to check that the installation worked as expected.
 - After the playbook completes, you should still be in the Ansible container. From there, use the command line to SSH into the ELK server and ensure that the sebp/elk:761 container is running by running: docker ps.
 - Update each configuration file with ELKServer IP
-Kibana - uncomment and replace localhost with local IP for ELK Server
-Elasticsearch - uncomment and replace localhost with local IP for ELK Server
+    * Kibana - uncomment and replace localhost with local IP for ELK Server
+    * Elasticsearch - uncomment and replace localhost with local IP for ELK Server
 
