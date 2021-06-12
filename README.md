@@ -94,6 +94,15 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
+ou should already be in your Ansible VM. Add an [elk] group to your Ansible VM's hosts file by following the steps below on the command line:
+
+
+Edit the inventory file vi /etc/ansible/hosts.
+
+
+Add a group called [elk] and specify the IP address of the VM you just created in Azure.
+
+![WebServers]
 - Copy the roles folder to /etc/ansible/roles.
 - Update the hosts file to include webserver IP's and ELKServer IP
 - Run the playbook, and navigate to HTTP://<ELKServer_Public_IP>:5601 to check that the installation worked as expected.
